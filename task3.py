@@ -1,5 +1,12 @@
+def digit_sum(n):
+    sum = 0
+    l = list(str(n))
+    for i in n:
+        sum += int(i)
+    return sum
+
 def is_beautiful(n):
-	pass
+	return n % digit_sum(n) == 0
 
 n = int(input())
 print(is_beautiful(n))
