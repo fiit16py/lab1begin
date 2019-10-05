@@ -1,7 +1,7 @@
 def digit_sum(n):
     sum = 0
     l = list(str(n))
-    for i in n:
+    for i in l:
         sum += int(i)
     return sum
 
