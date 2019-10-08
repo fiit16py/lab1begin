@@ -1,12 +1,10 @@
 def digit_sum(n):
-    a=n/10
-    n/10
-    while n/10!=0:
-        a=a+n/10
-        n/10
-    print(a)
+    a=0
+    while n!=0:
+        a=a+n%10
+        n=n/10
+    return a
 
 print('Введите число')
 n = int(input())
-print('123')
 print(digit_sum(n))
