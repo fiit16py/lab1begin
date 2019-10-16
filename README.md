@@ -56,9 +56,10 @@ b + c > a). Решение реализовать в виде функции
 
 6) Вместо
 
+    ```python
     if a + b > c and a + c > b and b + c > a:
             return True
     else:
             return False
-
+    ```
 следует писать `return a + b > c and a + c > b and b + c > a`.
