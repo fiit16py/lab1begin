@@ -1,5 +1,7 @@
 def is_prime(n):
-	pass
-
+        for i in reversed(range(2,n)):
+                if(n%i==0): return False
+        return True
+                
 n = int(input())
 print(is_prime(n))
