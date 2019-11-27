@@ -5,8 +5,8 @@ def digit_sum(n):
         s=s+a
         n//=10
     print(s)
-    pass
 
-print('Введите число')
-n = int(input())
-print(digit_sum(n))
+if __name__ == '__main__':
+    print('Введите число')
+    n = int(input())
+    print(digit_sum(n))
