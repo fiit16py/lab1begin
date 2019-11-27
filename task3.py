@@ -8,5 +8,7 @@ def is_beautiful(n):
         if e%s==0:
                 print('true')
         else: print('false')
-n = int(input())
-print(is_beautiful(n))
+
+if __name__ == '__main__':
+        n = int(input())
+        print(is_beautiful(n))
